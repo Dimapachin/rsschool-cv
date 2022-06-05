@@ -16,11 +16,11 @@ I am 28 years old . At the moment I want to change jobs, so I chose the plague a
 
 ### Skills
 
-*HTML
-*CSS/SASS
-*Git
-*Figma
-*Photoshop
+* HTML
+* CSS/SASS
+* Git
+* Figma
+* Photoshop
 
 ### Code Examples
 ```
