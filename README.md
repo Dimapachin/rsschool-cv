@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://dimapachin.github.io/rsschool-cv/cv
+https://dimapachin.github.io/rsschool-cv/
