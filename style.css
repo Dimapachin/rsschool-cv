@@ -1,3 +1,42 @@
-h1 {
-  color: red;
+
+body {
+  box-sizing: border-box;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.nav ul  {
+  display: flex;
+  font-size: 22px;
+  line-height: 29px;
+  color: #0C3076;
+  list-style-type: none;
+ 
+}
+
+.nav ul li {
+  padding-left: 33px;
+}
+
+.avatar-img {
+  
+  max-width: 350px;
+
+}
+
+.main {
+  position: absolute;
+  z-index: 0;
+  top: 95px;
+  right: 959px;
 }
