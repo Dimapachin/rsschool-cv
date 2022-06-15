@@ -15,17 +15,23 @@ body {
 
 
 }
-.nav ul  {
+.nav ul {
   display: flex;
   font-size: 22px;
   line-height: 29px;
-  color: #0C3076;
+  
   list-style-type: none;
+  margin-block-start: 0;
+  padding-inline-start: 0px;
+  text-decoration: none;
  
+
 }
 
-.nav ul li {
-  padding-left: 33px;
+.nav ul a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: #0C3076;
 }
 
 .avatar-img {
@@ -38,5 +44,68 @@ body {
   position: absolute;
   z-index: 0;
   top: 95px;
-  right: 959px;
+  right: 432px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FFFFFF;
+  background-color: #0C3076;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.junior {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  background-color: #0C3076;
+  padding: 10px 145px 20px 20px;
+}
+
+.contacts {
+  padding: 0px;
+}
+
+.email {
+  padding: 25px 0px 0 18px;
+  
+}
+
+.mail {
+  max-width: 33px;
+  padding: 0px 0px 0 0px;
+}
+.mail-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  
+}
+.discord {
+  align-content: center;
+  padding: 0px 0px 0 18px;
+}
+
+.discord-img {
+  max-width: 38px;
+  padding: 0px 0px 0px 0px;
+  margin: 21px -4px -10px 0px;;
+}
+
+.discord-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  text-decoration: none;
 }
