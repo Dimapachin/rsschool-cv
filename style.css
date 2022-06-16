@@ -1,3 +1,200 @@
-h1 {
-  color: red;
+
+body {
+  box-sizing: border-box;
+
+}
+
+h1,h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #0C3076;
+  background-color: rgba(193, 193, 193, 0.74);
+}
+
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.nav ul {
+  display: flex;
+  font-size: 22px;
+  line-height: 29px;
+  
+  list-style-type: none;
+  margin-block-start: 0;
+  padding-inline-start: 0px;
+  text-decoration: none;
+ 
+
+}
+
+.nav ul a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: #0C3076;
+}
+
+.avatar-img {
+  
+  max-width: 350px;
+
+}
+
+.main {
+  position: absolute;
+  z-index: 0;
+  top: 95px;
+  right: 312px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FFFFFF;
+  background-color: #0C3076;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.junior {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  background-color: #0C3076;
+  padding: 10px 145px 20px 20px;
+}
+
+.contacts {
+  padding: 0px;
+}
+
+.email {
+  padding: 25px 0px 0 18px;
+  
+}
+
+.mail {
+  max-width: 33px;
+  padding: 0px 0px 0 0px;
+}
+.mail-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  
+}
+.discord {
+  align-content: center;
+  padding: 0px 0px 0 18px;
+}
+
+.discord-img {
+  max-width: 38px;
+  padding: 0px 0px 0px 0px;
+  margin: 21px -4px -10px 0px;;
+}
+
+.discord-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  text-decoration: none;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 410px;
+}
+
+.skills-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px; 
+}
+
+.code-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 410px;   
+}
+
+.EDUCATION-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px;   
+}
+
+.LANGUAGE-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px;   
+}
+
+footer {
+  background-color: rgba(193, 193, 193, 0.74);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  
+}
+
+.footer-mail-img {
+  max-width: 30px;
+  padding-top: 35px;
+}
+
+.github-image {
+  max-width: 30px;
+  padding-top: 25px;
+}
+
+.text-github {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  text-decoration: none;
+}
+.rs-img {
+  max-width: 590px;
 }
