@@ -4,6 +4,16 @@ body {
 
 }
 
+h1,h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #0C3076;
+  background-color: rgba(193, 193, 193, 0.74);
+}
+
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,7 +54,7 @@ body {
   position: absolute;
   z-index: 0;
   top: 95px;
-  right: 432px;
+  right: 312px;
 }
 
 .name {
@@ -108,4 +118,83 @@ body {
   padding: 0px 0px 0px 10px;
   color: #0C3076;
   text-decoration: none;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 410px;
+}
+
+.skills-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px; 
+}
+
+.code-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 410px;   
+}
+
+.EDUCATION-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px;   
+}
+
+.LANGUAGE-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0C3076;
+  padding-left: 436px;   
+}
+
+footer {
+  background-color: rgba(193, 193, 193, 0.74);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  
+}
+
+.footer-mail-img {
+  max-width: 30px;
+  padding-top: 35px;
+}
+
+.github-image {
+  max-width: 30px;
+  padding-top: 25px;
+}
+
+.text-github {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  color: #0C3076;
+  text-decoration: none;
+}
+.rs-img {
+  max-width: 590px;
 }
