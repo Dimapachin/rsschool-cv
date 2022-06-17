@@ -126,6 +126,7 @@ h1,h2 {
   line-height: 39px;
   color: #0C3076;
   padding-left: 410px;
+  padding-right: 191px;
 }
 
 .skills-text {
@@ -137,10 +138,7 @@ h1,h2 {
 }
 
 .code-text {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  color: #0C3076;
+
   padding-left: 410px;   
 }
 
