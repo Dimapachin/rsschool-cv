@@ -5,12 +5,114 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="../style.css">
   <title>CV</title>
 </head>
 
 <body>
-  <h1>CV</h1>
+  <div class="wrapper">
+    <header class="header">
+      <div class="avatar">
+          <img class="avatar-img" src="cv1.jpg" alt="avatar">
+      </div>
+      <nav class="nav">
+        <ul>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#code">CODE EXAMPLES</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#lang">LANGUAGES</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main-wrapper">
+        <div class="name-wrapper">
+          <h1 class="name">Dzmitry Pachyn</h1>
+          <span class="junior">Junior Frontend Developer</span>
+        </div>
+        <div class="contacts">
+          <div class="email">
+            <img class="mail" src="mail.png" alt="mail">
+            <span class="mail-text">dima.pachin@Gmail.com</span>
+          </div>
+          <div class="discord">
+            <img src="discord.png" alt="discord" class="discord-img">
+            <span class="discord-text" >dipac234</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="text">
+      <div class="text-wrapper">
+        <div id="about" class="about_me">
+          <h2  class="about-title">ABOUT ME</h2>
+          <p class="about-text">I am 28 years old . At the moment I want to change jobs, so I chose the plague at rs school.I have the ability to learn
+          quickly and there is one more bonus I am very interested in frontend developer.</p>
+        </div>
+        <div id="skills" class="SKILLS">
+          <h2 class="skills-title">skills</h2>
+          <ul class="skills-text">
+            <li>HTML</li>
+            <li>CSS/SASS</li>
+            <li>Git</li>
+            <li>Figma</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+        <div id="code" class="CODE">
+          <h2 class="code-title">code</h2>
+          <div class="code-text">
+            <code class="">function multiply(a, b)
+              <br>{<br>
+             return a * b;<br>
+            }<br>
+            </code>
+          </div>
+        </div>
+        <div id="education" class="EDUCATION">
+          <h2 class="EDUCATION-title">EDUCATION</h2>
+          <ul class="EDUCATION-text">
+            <li>Courses
+             <ul>
+               <li>RS school</li>
+             </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="lang" class="LANGUAGE">
+          <h2 class="LANGUAGE-title">LANGUAGE</h2>
+          <ul class="LANGUAGE-text">
+            <li>Russian (native)</li>
+            <li>English- A2</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-contacts">
+            <div class="footer-email">
+              <img class="footer-mail-img" src="mail.png" alt="mail">
+              <span class="mail-text">dima.pachin@Gmail.com</span>
+            </div>
+            <div class="footer-discord">
+              <img src="discord.png" alt="discord" class="discord-img">
+              <span class="discord-text">dipac234</span>
+            </div>
+            <div class="footer-github">
+              <img class="github-image" src="/github.png" alt="github">
+              <a class="text-github" href="https://github.com/Dimapachin">DimaPachin</a>
+            </div>
+        </div>
+        <div class="footer-rs">
+          <a class="rs=link" href="https://rs.school/js/"><img src="/rsschool.png" alt="rsschool" class="rs-img"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
 </body>
 
 </html>
