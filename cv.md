@@ -1,4 +1,3 @@
-
 # CV
 
 ## Dzmitry Pachyn
@@ -25,8 +24,8 @@ I want to make my own startup. But I lack knowledge and practice.
 
 ## Code Examples
 
-```
-function sum(a, b) {
+```bash
+Function sum(a, b) {
   return a + b;
 }
 
