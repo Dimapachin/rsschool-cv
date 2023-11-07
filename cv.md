@@ -25,7 +25,8 @@ I want to make my own startup. But I lack knowledge and practice.
 
 ## Code Examples
 
-```function sum(a, b) {
+```
+function sum(a, b) {
   return a + b;
 }
 
@@ -35,9 +36,9 @@ alert( result );
 
 ## Education
 
-+Rs.School
++ Rs.School
 
 ## Languages
 
 + Russian (native)
-+ English[EOF]
++ English
